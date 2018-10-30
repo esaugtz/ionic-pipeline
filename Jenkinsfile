@@ -1,8 +1,8 @@
 pipeline {
   agent any
-    environment {
-      PATH='C:/Program Files/Git/bin/git.exe'
-    }
+    // environment {
+    //   PATH='/usr/local/bin:/usr/bin:/bin'
+    // }
 
   stages {
 
