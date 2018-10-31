@@ -6,17 +6,17 @@ pipeline {
 
   stages {
 
-    stage('NPM Setup') {
-      steps {
-          sh 'npm install'
-      }
-    }
+    // stage('NPM Setup') {
+    //   steps {
+    //       sh 'npm install'
+    //   }
+    // }
 
-    stage('Android Build') {
-      steps {
-          sh 'ionic cordova build android'
-      }
-    }
+    // stage('Android Build') {
+    //   steps {
+    //       sh 'ionic cordova build android'
+    //   }
+    // }
 
     // stage('APK Sign') {
     //   steps {
